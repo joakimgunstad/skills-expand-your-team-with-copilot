@@ -7,6 +7,11 @@ A super simple website application that allows students to view and sign up for 
 - View all available extracurricular activities
 - Sign up for activities
 
+Activities can optionally have a `difficulty` field set to `Beginner`,
+`Intermediate`, or `Advanced`. Activities without this field are for all levels.
+The difficulty filter's **All** option shows only activities for all levels;
+**Any Difficulty** shows activities regardless of difficulty.
+
 ## Development Guide
 
 For detailed setup and development instructions, please refer to our [Development Guide](../docs/how-to-develop.md).
